@@ -1,0 +1,54 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(249, 229, 71);
+    height: 90px;
+    box-shadow: rgb(0 0 0 / 40%) 0px 1px 3px;
+}
+
+.header__wrapper {
+    padding: 0 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    height: 90px;
+    align-items: center;
+}
+
+.header__logo img {
+    width: 170px;
+}
+
+.header__menu {
+    height: 90px;
+    align-items: center;
+    display: flex;
+}
+
+.header__menu-items {
+    display: flex;
+}
+
+.header__menu-item {
+    list-style: none;
+    padding: 0 15px 0 0;
+}
+
+.header__menu-item a {
+    color: #4d4d4d;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header__phone p {
+    font-weight: 700;
+    color: #4d4d4d;
+}
