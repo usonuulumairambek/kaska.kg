@@ -1,6 +1,7 @@
 
 
 .app__tittle h1 {
+    text-align: center;
     font-size: 48px;
     line-height: 2;
     color: rgb(77, 77, 77);
@@ -9,6 +10,7 @@
 }
 
 .app__subtittle p {
+    text-align: center;
     font-weight: 300;
     color: #000;
     font-size: 22px;

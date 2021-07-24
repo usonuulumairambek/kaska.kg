@@ -1,0 +1,38 @@
+.why__container-krug {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 54px;
+    font-size: 20px;
+    background-color: #f9e547;
+    color: #4d4d4d;
+    border-radius: 100%;
+
+}
+.why__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+}
+.why__container-block{
+    display: flex;
+    margin: 1%;
+}
+.why__container-info {
+    margin-left: 2%;
+    max-width: 200px;
+}
+.why__container-info h3{
+    color: #4d4d4d;
+    font-size: 16px;
+margin: 3px;
+}
+.why__container-info p{
+    font-family: 'FuturaPT',Arial,sans-serif;
+    font-weight: 300;
+    color: #000;
+    font-size: 14px;
+    line-height: 2em;
+}
