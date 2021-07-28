@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import img1 from "./images/img1.jpg";
 import img2 from "./images/img2.webp";
 import img3 from "./images/img3.webp";
 import img4 from "./images/img4.jpg";
 import "./uslugi.css";
-import "./../../App.css"
+import "./../../App.css";
+import aos from "aos";
+import "aos/dist/aos.css";
 function Uslugi() {
+  useEffect(() => {
+    aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="uslugi" style={{ textAlign: "center" }}>
       <div className="app__tittle">
@@ -19,7 +24,7 @@ function Uslugi() {
       </div>
       <div className="uslugi__container">
         <div className="uslugi__container-items">
-          <div className="uslugi__container-item">
+          <div data-aos="fade-right" className="uslugi__container-item">
             <img src={img1} alt="" />
             <h2 className="uslugi__container-titte">Обьемные буквы</h2>
             <h3 className="uslugi__container-subtitte">от 500сом</h3>
@@ -31,7 +36,7 @@ function Uslugi() {
               Рассчитать стоимость
             </button>
           </div>
-          <div className="uslugi__container-item">
+          <div data-aos="fade-left" className="uslugi__container-item">
             <img src={img2} alt="" />
             <h2 className="uslugi__container-titte">Обьемные буквы</h2>
             <h3 className="uslugi__container-subtitte">от 500сом</h3>
@@ -43,7 +48,7 @@ function Uslugi() {
               Рассчитать стоимость
             </button>
           </div>
-          <div className="uslugi__container-item">
+          <div data-aos="fade-right" className="uslugi__container-item">
             <img src={img3} alt="" />
             <h2 className="uslugi__container-titte">Обьемные буквы</h2>
             <h3 className="uslugi__container-subtitte">от 500сом</h3>
@@ -55,7 +60,7 @@ function Uslugi() {
               Рассчитать стоимость
             </button>
           </div>
-          <div className="uslugi__container-item">
+          <div data-aos="fade-left" className="uslugi__container-item">
             <img src={img4} alt="" />
             <h2 className="uslugi__container-titte">Обьемные буквы</h2>
             <h3 className="uslugi__container-subtitte">от 500сом</h3>

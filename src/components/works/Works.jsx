@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./works.css";
 import Img1 from "./images/img1.jpg";
 import Img2 from "./images/img2.jpg";
@@ -12,9 +12,12 @@ import arrowpng from "./images/arrow.png";
 import logo1 from "./images/avatarImg.webp";
 import logo2 from "./images/logo2.webp";
 import logo3 from "./images/logo3.webp";
-
-import avatarImg from "./images/avatarImg.webp";
+import aos from "aos";
+import "aos/dist/aos.css";
 function Works() {
+  useEffect(() => {
+    aos.init({ duration: 2000 });
+  }, []);
   let data = [
     { name: Img1 },
     { name: Img2 },
@@ -37,7 +40,7 @@ function Works() {
       <div className="works__container">
         {data.map((e) => {
           return (
-            <div className="works__container-item">
+            <div data-aos="fade-left" className="works__container-item">
               <img src={e.name} alt="" />
             </div>
           );
@@ -50,7 +53,7 @@ function Works() {
         <div className="reviews__container">
           {datareview.map((e) => {
             return (
-              <div className="reviews__container-item">
+              <div data-aos="fade-left" className="reviews__container-item">
                 <div className="reviews__container-img">
                   <img src={e.name} alt="" />
                   <span>
