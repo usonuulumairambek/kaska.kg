@@ -1,8 +1,70 @@
-.calculation_bg{
-    position: absolute;
+.calculation_bg {
     height: 100vh;
     background-image: url(./images/Calculationbg.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.calculation__filter {
+
+    height: 100vh;
+    z-index: 100;
+    background-color: rgba(36, 35, 35, 0.8);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.calculation__tittle {
+    padding-top: 20%;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.23;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.calculation__wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.calculation__subtittle p {
+    text-align: center;
+    color: #fff;
+    line-height: 1.50;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    font-weight: 300;
+    margin-top: 24px;
+}
+.calculation__form{
+max-width: 1000px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+}
+
+.calculation__form-name:focus, 
+.calculation__form-phone:focus{
+    border: none;
+    outline: none;
+}
+.calculation__form-name, 
+.calculation__form-phone{
+    border: none;
+    margin: 10px;
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+}
+.calculation__form-btn{
+    background: #f9e547;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
 }
