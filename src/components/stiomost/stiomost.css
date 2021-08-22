@@ -1,0 +1,36 @@
+.stiomost {
+    padding: 10% 1% 10% 1%;
+    background-color: #f9e547;
+}
+
+.app__tittle h1 {
+    margin-top: 0;
+}
+
+.stiomost__container-subtittle {
+    text-align: center;
+}
+
+.stiomost__container-button {
+    display: flex;
+    justify-content: center;
+}
+
+.stiomost__container-img {
+    height: 80px;
+    margin-right: 2%;
+}
+
+.stiomost__container-button button {
+    height: 50px;
+    width: 250px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.stiomost__container-btn {
+    background-color: #4d4d4d;
+    border: none;
+    border-radius: 20px;
+}

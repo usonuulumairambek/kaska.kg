@@ -12,7 +12,7 @@ function Uslugi() {
     aos.init({ duration: 2000 });
   }, []);
   return (
-    <div className="uslugi" style={{ textAlign: "center" }}>
+    <div id="onMenu" className="onMenu" style={{ textAlign: "center" }}>
       <div className="app__tittle">
         <h1>Наши услуги</h1>
       </div>

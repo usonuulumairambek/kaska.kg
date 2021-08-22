@@ -1,4 +1,7 @@
+
 .calculation_bg {
+    padding: 0 2% 0 2%;
+
     height: 100vh;
     background-image: url(./images/Calculationbg.webp);
     background-repeat: no-repeat;
@@ -7,7 +10,7 @@
 }
 
 .calculation__filter {
-
+    padding: 0 2% 0 2%;
     height: 100vh;
     z-index: 100;
     background-color: rgba(36, 35, 35, 0.8);
@@ -39,29 +42,30 @@
     font-weight: 300;
     margin-top: 24px;
 }
-.calculation__form{
-max-width: 1000px;
-height: 100px;
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 0 auto;
+
+.calculation__form {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
-.calculation__form-name:focus, 
-.calculation__form-phone:focus{
+.calculation__form-name:focus, .calculation__form-phone:focus {
     border: none;
     outline: none;
 }
-.calculation__form-name, 
-.calculation__form-phone{
+
+.calculation__form-name, .calculation__form-phone {
     border: none;
     margin: 10px;
     width: 300px;
     height: 50px;
     padding-left: 10px;
+    margin: 15px 0 15px 0 ;
 }
-.calculation__form-btn{
+
+.calculation__form-btn {
     background: #f9e547;
     height: 50px;
     width: 200px;

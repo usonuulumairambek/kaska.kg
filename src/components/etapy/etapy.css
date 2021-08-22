@@ -1,0 +1,36 @@
+.etapy__container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.etapy__containers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.etapy__container-box{
+    max-width: 300px;
+}
+.etapy__container-circle, .etapy__container-circlee{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #f9e547;
+
+}
+.etapy__container-circle p, .etapy__container-circlee p {
+
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.etapy__container-circle::before{
+    content: '';
+    width: 300px;
+    background-color: #f9e547;
+margin: 25px 0 0 0;
+    position: absolute;
+    height: 3px;
+}

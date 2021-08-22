@@ -1,0 +1,13 @@
+.partners__container-subtittle{
+    text-align: center;
+}
+.partners__container-logos{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 460px) {
+    .partners__container-logos{
+        flex-direction: column;
+        align-items: center;
+    }
+}
