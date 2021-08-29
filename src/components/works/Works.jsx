@@ -40,7 +40,7 @@ function Works() {
       <div className="works__container">
         {data.map((e) => {
           return (
-            <div data-aos="fade-left" className="works__container-item">
+            <div data-aos="fade-up" className="works__container-item">
               <img src={e.name} alt="" />
             </div>
           );
@@ -53,7 +53,7 @@ function Works() {
         <div className="reviews__container">
           {datareview.map((e) => {
             return (
-              <div data-aos="fade-left" className="reviews__container-item">
+              <div data-aos="fade-up" className="reviews__container-item">
                 <div className="reviews__container-img">
                   <img src={e.name} alt="" />
                   <span>

@@ -53,6 +53,42 @@
     -webkit-user-select: none;
 }
 
+.title {
+    color: #a8a8a8;
+    text-shadow: rgb(0 0 0 / 20%) 0px 2px 10px;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    width: 17ch;
+    font-size: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid orange;
+    animation: flashing-border 0.75s step-end infinite, printed-text 5s steps(21);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@keyframes flashing-border {
+    0% {
+        border-color: orange;
+    }
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: orange;
+    }
+}
+
+@keyframes printed-text {
+    from {
+        width: 0;
+    }
+}
+
 @media(max-width: 1100px) {
     .homepage {
         background-size: auto 100vh;
@@ -68,17 +104,18 @@
 @media (max-width: 455px) {
     .homepage__container {
         margin: 0 2% 0 2%;
-    } 
-    .homepage__container button{
+    }
+    .homepage__container button {
         padding-left: 40px;
         padding-right: 40px;
     }
 }
+
 @media (max-width: 340px) {
     .homepage__container {
         margin: 0 2% 0 2%;
-    } 
-    .homepage__container button{
+    }
+    .homepage__container button {
         padding-left: 20px;
         padding-right: 20px;
     }

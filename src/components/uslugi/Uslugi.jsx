@@ -12,7 +12,12 @@ function Uslugi() {
     aos.init({ duration: 2000 });
   }, []);
   return (
-    <div id="onMenu" className="onMenu" style={{ textAlign: "center" }}>
+    <div
+      id="#section1"
+      id="onMenu"
+      className="onMenu"
+      style={{ textAlign: "center" }}
+    >
       <div className="app__tittle">
         <h1>Наши услуги</h1>
       </div>
@@ -24,7 +29,7 @@ function Uslugi() {
       </div>
       <div className="uslugi__container">
         <div className="uslugi__container-items">
-          <div data-aos="fade-right" className="uslugi__container-item">
+          <div data-aos="fade-up" className="uslugi__container-item">
             <img src={img1} alt="" />
             <h2 className="uslugi__container-titte">Обьемные буквы</h2>
             <h3 className="uslugi__container-subtitte">от 500сом</h3>
@@ -36,7 +41,7 @@ function Uslugi() {
               Рассчитать стоимость
             </button>
           </div>
-          <div data-aos="fade-left" className="uslugi__container-item">
+          <div data-aos="fade-down" className="uslugi__container-item">
             <img src={img2} alt="" />
             <h2 className="uslugi__container-titte">Обьемные буквы</h2>
             <h3 className="uslugi__container-subtitte">от 500сом</h3>
@@ -48,7 +53,7 @@ function Uslugi() {
               Рассчитать стоимость
             </button>
           </div>
-          <div data-aos="fade-right" className="uslugi__container-item">
+          <div data-aos="fade-up" className="uslugi__container-item">
             <img src={img3} alt="" />
             <h2 className="uslugi__container-titte">Обьемные буквы</h2>
             <h3 className="uslugi__container-subtitte">от 500сом</h3>
@@ -60,7 +65,7 @@ function Uslugi() {
               Рассчитать стоимость
             </button>
           </div>
-          <div data-aos="fade-left" className="uslugi__container-item">
+          <div data-aos="fade-down" className="uslugi__container-item">
             <img src={img4} alt="" />
             <h2 className="uslugi__container-titte">Обьемные буквы</h2>
             <h3 className="uslugi__container-subtitte">от 500сом</h3>

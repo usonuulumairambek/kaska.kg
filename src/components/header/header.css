@@ -1,4 +1,5 @@
 .header {
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -11,7 +12,6 @@
 
 .header__wrapper {
     height: 80px;
-    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -49,7 +49,7 @@
     text-decoration: none;
 }
 
-.header__phone p {
+.header__phone a {
     font-weight: 700;
     color: #4d4d4d;
 }

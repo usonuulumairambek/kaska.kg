@@ -2,7 +2,7 @@ import React from "react";
 import "./calculation.css";
 function Calculation() {
   return (
-    <div className="calculation">
+    <div id="#section4" className="calculation">
       <div className="calculation_bg">
         <div className="calculation__filter">
           <div className="calculation__wrapper">
@@ -18,9 +18,19 @@ function Calculation() {
           </div>
           <div className="calculation__form">
             <form action="#">
-              <input className="calculation__form-name" type="text" placeholder="Имя" />
-              <input className="calculation__form-phone" type="phone" placeholder="Номер" />
-              <button className="calculation__form-btn">Отправить заявку</button>
+              <input
+                className="calculation__form-name"
+                type="text"
+                placeholder="Имя"
+              />
+              <input
+                className="calculation__form-phone"
+                type="phone"
+                placeholder="Номер"
+              />
+              <button className="calculation__form-btn">
+                Отправить заявку
+              </button>
             </form>
           </div>
         </div>
