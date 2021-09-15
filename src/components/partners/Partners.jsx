@@ -17,10 +17,10 @@ function Partners() {
           </p>
         </div>
         <div className="partners__container-logos">
-          <a href="http://norma.kg/" target="_blank">
+          <a href="http://norma.kg/" target="_blank" rel="noreferrer">
             <img src={NN} alt="" />
           </a>
-          <a href="https://bilim.kg/" target="_blank">
+          <a href="https://bilim.kg/" target="_blank" rel="noreferrer" >
             <img src={bilim} alt="" />
           </a>
         </div>

@@ -1,25 +1,25 @@
 .homepage {
-    padding-top: 90px;
+padding: 62px 0 0 10%;
     height: 90.7vh;
     background: linear-gradient(to top, rgba(71, 71, 71, 0.80), rgba(99, 100, 102, 0.80)), url(https://static.tildacdn.com/tild6436-3933-4732-b239-343930373433/happy-industry-ftr.jpg);
     background-color: rgba(#000, .9);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100vh;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .homepage__container {
-    margin: 11% 0 0% 7%;
-    height: 100vh;
     max-width: 629px;
 }
 
 .homepage__container-tittle {
+    width: 100%;
     color: #a8a8a8;
     text-shadow: rgb(0 0 0 / 20%) 0px 2px 10px;
     font-family: 'FuturaPT', Arial, sans-serif;
     font-weight: 600;
-    font-size: 48px;
 }
 
 .homepage__container-subtittle {
@@ -50,7 +50,6 @@
     background-image: none;
     cursor: pointer;
     -webkit-appearance: none;
-    -webkit-user-select: none;
 }
 
 .title {
@@ -59,7 +58,7 @@
     font-family: 'FuturaPT', Arial, sans-serif;
     font-weight: 600;
     font-size: 48px;
-    width: 17ch;
+    width: 9ch;
     font-size: 40px;
     white-space: nowrap;
     overflow: hidden;
@@ -103,17 +102,11 @@ html {
 
 @media (max-width: 455px) {
     .homepage__container {
-        margin: 0 2% 0 2%;
+        margin: 2% 0 0 2%;
     }
-    .homepage__container button {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-}
-
-@media (max-width: 340px) {
-    .homepage__container {
-        margin: 0 2% 0 2%;
+    .tittle{
+        display: none;
+        font-size: 10px;
     }
     .homepage__container button {
         padding-left: 20px;

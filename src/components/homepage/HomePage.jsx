@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <div className="homepage">
       <div className="homepage__container">
-        <h1 className="homepage__container-tittle title">Наружная реклама</h1>
+        <h1 className="homepage__container-tittle title">Наружная <br /> реклама</h1>
         <p className="homepage__container-subtittle">
           Объёмные буквы, лайтбоксы, штендеры, стеллы, оформление фасадов.|
         </p>

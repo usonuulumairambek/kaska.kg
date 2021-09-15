@@ -14,7 +14,6 @@ function Uslugi() {
   return (
     <div
       id="#section1"
-      id="onMenu"
       className="onMenu"
       style={{ textAlign: "center" }}
     >
