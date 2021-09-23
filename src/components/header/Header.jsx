@@ -1,9 +1,11 @@
 import React from "react";
+import Burger from "./burger";
 import "./header.css";
 import logokaska from "./images/logokaska.png";
 const Header = () => {
-  let onMenu = () => {
-    alert("скоро");
+  let onMenu = () => {};
+  let Ok = () => {
+    console.log("sds");
   };
   return (
     <div className="header">
@@ -43,11 +45,7 @@ const Header = () => {
         <div className="header__mobile-text">
           <h1>KASKA</h1>
         </div>
-        <div onClick={onMenu} className="header__mobile-burgerMenu">
-          <span className="span1"> </span>
-          <span className="span2"> </span>
-          <span className="span3"> </span>
-        </div>
+        <Burger onClick={Ok} onMenu={onMenu} />
       </div>
     </div>
   );

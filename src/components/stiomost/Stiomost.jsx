@@ -3,7 +3,7 @@ import "./stiomost.css";
 import imgsvg from "./img.svg";
 function Stiomost() {
   return (
-    <div className="stiomost">
+    <div section="section4" className="stiomost">
       <div className="stiomost__container">
         <div className="app__tittle">
           <h1>Рассчитайте стоимость ремонта</h1>
