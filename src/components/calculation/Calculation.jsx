@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./calculation.css";
 function Calculation() {
+  const [name, setname] = useState("");
+  console.log(name);
+  // let name = 'mairambek'
   return (
-    <div id="#section4" className="calculation">
+    <div id="calc" className="calculation">
       <div className="calculation_bg">
         <div className="calculation__filter">
           <div className="calculation__wrapper">
@@ -17,21 +20,24 @@ function Calculation() {
             </div>
           </div>
           <div className="calculation__form">
-            <form action="#">
-              <input
-                className="calculation__form-name"
-                type="text"
-                placeholder="Имя"
-              />
-              <input
-                className="calculation__form-phone"
-                type="phone"
-                placeholder="Номер"
-              />
-              <button className="calculation__form-btn">
-                Отправить заявку
-              </button>
-            </form>
+            {/* <form> */}
+            Вы написали текст: {`${name}`}
+            <input
+              onChange={(e) => {
+                setname(e.target.value);
+              }}
+              value={name}
+              className="calculation__form-name"
+              type="text"
+              placeholder="Имя"
+            />
+            <input
+              className="calculation__form-phone"
+              type="phone"
+              placeholder="Номер"
+            />
+            <button className="calculation__form-btn">Отправить заявку</button>
+            {/* </form> */}
           </div>
         </div>
       </div>

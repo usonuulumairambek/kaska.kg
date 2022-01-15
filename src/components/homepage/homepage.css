@@ -1,7 +1,7 @@
 .homepage {
-padding: 62px 0 0 10%;
+    padding: 0 0 0 10%;
     height: 90.7vh;
-    background: linear-gradient(to top, rgba(71, 71, 71, 0.80), rgba(99, 100, 102, 0.80)), url(https://static.tildacdn.com/tild6436-3933-4732-b239-343930373433/happy-industry-ftr.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(./bgbg.jpg);
     background-color: rgba(#000, .9);
     background-repeat: no-repeat;
     background-position: center;
@@ -11,6 +11,7 @@ padding: 62px 0 0 10%;
 }
 
 .homepage__container {
+    margin-top: 10%;
     max-width: 629px;
 }
 
@@ -74,9 +75,11 @@ html {
     0% {
         border-color: orange;
     }
+
     50% {
         border-color: transparent;
     }
+
     100% {
         border-color: orange;
     }
@@ -104,10 +107,12 @@ html {
     .homepage__container {
         margin: 2% 0 0 2%;
     }
-    .tittle{
+
+    .tittle {
         display: none;
         font-size: 10px;
     }
+
     .homepage__container button {
         padding-left: 20px;
         padding-right: 20px;

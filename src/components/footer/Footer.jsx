@@ -5,7 +5,7 @@ import fb from "./fb.svg";
 import logofooter from "./logo.png";
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" id="contact">
       <div className="footer__container">
         <div className="footer__container-info">
           <div className="footer__container-tittle">

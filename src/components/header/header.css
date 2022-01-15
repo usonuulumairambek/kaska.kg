@@ -1,11 +1,8 @@
 .header {
     width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10000;
+
     background-color: rgb(249, 229, 71);
-    height: 90px;
+    height: 85px;
     box-shadow: rgb(0 0 0 / 40%) 0px 1px 3px;
 }
 
@@ -83,19 +80,15 @@
     top: 50%;
 }
 
-@media (min-width: 756px) {
-    .header__mobile {
-        display: none;
-    }
-}
-
 @media (max-width: 756px) {
-    .header {
-        color: #fff;
-        background-color: rgb(0, 0, 0);
-    }
-    .header__wrapper {
-        display: none;
-    }
+ .header__menu{
+     display: none;
+ }   
 }
 
+/* 
+@media (max-width: 756px) {
+    .header__menu{
+        display: none;
+    }   
+   } */

@@ -1,5 +1,6 @@
 import React from "react";
 import "./homepage.css";
+
 const HomePage = () => {
   return (
     <div className="homepage">
@@ -8,10 +9,10 @@ const HomePage = () => {
         <p className="homepage__container-subtittle">
           Объёмные буквы, лайтбоксы, штендеры, стеллы, оформление фасадов.|
         </p>
-        <a href="section4">
+        <a href="#calc">
           <button>расчитать стоимость Услуги</button>
         </a>
-        <a href="section1">
+        <a href="#uslugi">
           {" "}
           <button>Услуги</button>
         </a>

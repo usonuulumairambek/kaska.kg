@@ -30,7 +30,7 @@ function Works() {
   ];
   let datareview = [{ name: logo1, text: 'Роза эже' }, { name: logo2, text: 'Майрамбек' }, { name: logo3, text: 'Кирилл' }];
   return (
-    <div className="works">
+    <div className="works" id="works">
       <div className="app__tittle">
         <h1>Наши работы</h1>
       </div>

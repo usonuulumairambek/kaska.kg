@@ -12,12 +12,8 @@ function Uslugi() {
     aos.init({ duration: 2000 });
   }, []);
   return (
-    <div
-      id="#section1"
-      className="onMenu"
-      style={{ textAlign: "center" }}
-    >
-      <div className="app__tittle">
+    <div id="#uslugi" className="onMenu" style={{ textAlign: "center" }}>
+      <div className="app__tittle" id="uslugi">
         <h1>Наши услуги</h1>
       </div>
       <div className="app__subtittle">
@@ -36,9 +32,12 @@ function Uslugi() {
               Сметчик выезжает на замеры, расчитывает работу и материалы. В этот
               же день мы обговариваем сроки выполнения работ.
             </p>
-            <button className="uslugi__container-btn">
-              Рассчитать стоимость
-            </button>
+            <a href="#calc">
+              {" "}
+              <button href="#calc" className="uslugi__container-btn">
+                Рассчитать стоимость{" "}
+              </button>
+            </a>
           </div>
           <div data-aos="fade-down" className="uslugi__container-item">
             <img src={img2} alt="" />
@@ -48,9 +47,12 @@ function Uslugi() {
               Сметчик выезжает на замеры, расчитывает работу и материалы. В этот
               же день мы обговариваем сроки выполнения работ.
             </p>
-            <button className="uslugi__container-btn">
-              Рассчитать стоимость
-            </button>
+            <a href="#calc">
+              {" "}
+              <button href="#calc" className="uslugi__container-btn">
+                Рассчитать стоимость{" "}
+              </button>
+            </a>
           </div>
           <div data-aos="fade-up" className="uslugi__container-item">
             <img src={img3} alt="" />
@@ -60,9 +62,12 @@ function Uslugi() {
               Сметчик выезжает на замеры, расчитывает работу и материалы. В этот
               же день мы обговариваем сроки выполнения работ.
             </p>
-            <button className="uslugi__container-btn">
-              Рассчитать стоимость
-            </button>
+            <a href="#calc">
+              {" "}
+              <button href="#calc" className="uslugi__container-btn">
+                Рассчитать стоимость{" "}
+              </button>
+            </a>
           </div>
           <div data-aos="fade-down" className="uslugi__container-item">
             <img src={img4} alt="" />
@@ -72,9 +77,12 @@ function Uslugi() {
               Сметчик выезжает на замеры, расчитывает работу и материалы. В этот
               же день мы обговариваем сроки выполнения работ.
             </p>
-            <button className="uslugi__container-btn">
-              Рассчитать стоимость
-            </button>
+            <a href="#calc">
+              {" "}
+              <button href="#calc" className="uslugi__container-btn">
+                Рассчитать стоимость{" "}
+              </button>
+            </a>
           </div>
         </div>
       </div>
